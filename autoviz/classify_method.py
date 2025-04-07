@@ -1,10 +1,10 @@
-import random
 
 import numpy as np
 import pandas as pd
+import secrets
 
 np.random.seed(99)
-random.seed(42)
+secrets.SystemRandom().seed(42)
 ################################################################################
 #### The warnings from Sklearn are so annoying that I have to shut it off #######
 import warnings
