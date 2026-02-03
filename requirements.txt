@@ -18,3 +18,4 @@ panel~=0.14.4
 holoviews~=1.14.9
 param==1.13.0
 pandas<2.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
